@@ -186,13 +186,15 @@
             radiusValue = this.projectLatlngs(p);
         }
 
+		var tileSize = this.options.tileSize;
         var heatmap = h337.create({
             "radius": radiusValue,
             "element": tile,
             "visible": true,
             "opacity": 100,  // we use leaflet's opacity for tiles
             "gradient": options.gradient,
-            "debug": options.debug
+            "debug": options.debug,
+			"bounds": {l:0,t:0,r:tileSize,b:tileSize}
         });
 
         // padding

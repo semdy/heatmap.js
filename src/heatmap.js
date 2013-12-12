@@ -344,6 +344,7 @@
                 me.set("opacity", parseInt(255/(100/config.opacity), 10) || 180);
                 me.set("width", config.width || 0);
                 me.set("height", config.height || 0);
+                me.set("bounds", config.bounds || {l:1000,t:1000,r:0,b:0});
                 me.set("debug", config.debug);
 
                 if(config.legend){

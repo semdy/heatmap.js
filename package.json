@@ -46,6 +46,7 @@
     "grunt-hash-resource": "latest",
     "grunt-vendor-optimize": "latest",
     "jshint-stylish": "latest",
-    "grunt-newer": "~0.6.0"
+    "grunt-newer": "~0.6.0",
+    "grunt-jsbeautifier": "~0.2.4"
   }
 }

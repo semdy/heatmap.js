@@ -24,7 +24,11 @@ module.exports = function (grunt) {
             })
         },
 
-        // js minify
+        "jsbeautifier" : {
+            files : ["src/**/*.js"],
+            options : { }
+        },
+
         uglify: {
             options: {
                 mangle: false,
@@ -32,9 +36,9 @@ module.exports = function (grunt) {
             },
             files: {
                 expand: true,
-                cwd: 'app/webroot/js/src',
+                cwd: 'src',
                 src: ['**/*.js'],
-                dest: 'app/webroot/js/dist/',
+                dest: 'dist/',
                 ext: '.min.js'
             }
         },

@@ -1,0 +1,51 @@
+{
+  "name": "heatmap.js",
+  "version": "0.0.3",
+  "description": "heatmap.js",
+  "main": "src/heatmap.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wangshijun2010/heatmap.js.git"
+  },
+  "keywords": [
+    "html5",
+    "javascript",
+    "heatmap"
+  ],
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/wangshijun2010/heatmap.js/issues"
+  },
+  "homepage": "https://github.com/wangshijun2010/heatmap.js",
+  "devDependencies": {
+    "lodash": "latest",
+    "grunt": "~0.4.0rc4",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-clean": "latest",
+    "install": "~0.1.7",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-csslint": "latest",
+    "matchdep": "latest",
+    "grunt-phplint": "latest",
+    "grunt-replace": "latest",
+    "grunt-hash-resource": "latest",
+    "grunt-vendor-optimize": "latest",
+    "jshint-stylish": "latest",
+    "grunt-newer": "~0.6.0"
+  }
+}

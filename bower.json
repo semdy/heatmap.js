@@ -1,11 +1,11 @@
 {
-    "name": "heatmap.js2",
-    "version": "0.0.2",
+    "name": "heatmap.js3",
+    "version": "0.0.3",
     "description": "This version works with newer versions of mapbox",
     "main": "src/heatmap.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chollier/heatmap.js.git"
+        "url": "https://github.com/wangshijun2010/heatmap.js.git"
     },
     "licenses": [
         {

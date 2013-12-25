@@ -322,7 +322,8 @@
                     if (i == gradient.length - 1) {
                         offset *= 2;
                     }
-                    labelsHtml += '<li style="position:absolute;left:' + (((((1 / (gradient.length - 1) * i * 256) || 0)) >> 0) - offset + .5) + 'px">' + labelText + '</li>';
+                    var labelLeft = (((((1 / (gradient.length - 1) * i * 256) || 0)) >> 0) - offset + .5);
+                    labelsHtml += '<li style="position:absolute;left:' + labelLeft + 'px">' + labelText + '</li>';
                 }
                 labels.innerHTML = labelsHtml;
             }
